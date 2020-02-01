@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from './Link';
 import PropTypes from 'prop-types';
+import styles from '../components/LinkList.css';
 
 const LinkList = ({ linkList }) => {
   const linkElements = linkList.map((link, i) => (
