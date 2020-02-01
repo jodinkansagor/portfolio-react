@@ -23,7 +23,7 @@ LinkList.propTypes = {
     url: PropTypes.string.isRequired,
     linkImg: PropTypes.string.isRequired,
     linkName: PropTypes.string.isRequired
-  }))
-}
+  })).isRequired
+};
 
 export default LinkList;

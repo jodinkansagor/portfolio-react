@@ -25,6 +25,16 @@ export default class Container extends Component {
     }
   ]
 
+  projectList = [
+    {
+      img: '../src/assets/coffee-and-cards.png',
+      description: PropTypes.string.isRequired,
+      stack: PropTypes.string.isRequired,
+      siteLink: PropTypes.string.isRequired,
+      githubLink: PropTypes.string.isRequired
+    }
+  ]
+
   render() {
     return (
       <>
@@ -33,6 +43,7 @@ export default class Container extends Component {
           <LinkList linkList={this.linkList} />
           <AboutMe />
           <Experience />
+          <ProjectList projectList={this.projectList} />
         </section>
       </>
     );
