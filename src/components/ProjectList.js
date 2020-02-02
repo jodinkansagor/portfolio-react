@@ -1,10 +1,12 @@
 import React from 'react';
-import styles from '../components/ProjectList.css';
 import PropTypes from 'prop-types';
+import styles from '../components/ProjectList.css';
 import ProjectItem from '../components/ProjectItem';
 
+//why is my linter unhappy here?
+
 const ProjectList = ({ projectList }) => {
-  const projectElements = projectList.map(projectItem => (
+  const projectElements = projectList.map((projectItem) => (
     <li key={projectItem.name}>
       <ProjectItem {...projectItem} />
     </li>
