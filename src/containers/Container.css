@@ -20,10 +20,23 @@
   h1 {
     padding-left: 20px;
   }
-
 }
-
 
 a:hover {
   cursor: pointer
+}
+
+@media (min-width: 800px) {
+
+  .bodySection {
+    display: grid;
+    width: 80%;
+    grid-template-columns: .5fr 4.5fr;
+  }
+
+  header {
+    border-bottom: none;
+    border-right: solid 3px #116466;
+  }
+  
 }

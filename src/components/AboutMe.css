@@ -12,5 +12,11 @@
   p {
     max-width: 370px;
   }
+
+  @media (min-width: 800px) {
+    p {
+      font-size: 20px;
+    }
+  }
 }
 
