@@ -8,9 +8,12 @@ const ProjectItem = ({ img, description, stack, siteLink, githubLink }) => {
     <section className={styles.projectItem}>
       <img src={img} />
       <p>{description}</p>
-      <p>{stack}</p>
-      <a href={siteLink}>site</a><span> // </span>
-      <a href={githubLink}>github</a>
+      <p className={styles.stack}>{stack}</p>
+      <section className={styles.links}>
+        <a href={siteLink}>site{' '}</a>
+        <p>//</p>
+        <a href={githubLink}>github</a>
+      </section>
 
     </section>
   );

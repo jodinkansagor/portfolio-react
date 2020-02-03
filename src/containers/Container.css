@@ -3,6 +3,24 @@
   flex-direction: column;
   align-items: center;
   width: 100%
+
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: solid 5px #116466;
+
+  ul {
+    padding-left: 20px;
+  }
+
+  h1 {
+    padding-left: 20px;
+  }
+
 }
 
 

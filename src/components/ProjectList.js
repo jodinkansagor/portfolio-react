@@ -13,12 +13,12 @@ const ProjectList = ({ projectList }) => {
   ));
 
   return (
-    <>
+    <div className={styles.projectList}>
       <h2>Select Projects</h2>
       <ul>
         {projectElements}
       </ul>
-    </>
+    </div>
   );
 };
 

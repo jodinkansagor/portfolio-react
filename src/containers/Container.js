@@ -5,6 +5,7 @@ import styles from '../containers/Container.css';
 import AboutMe from '../components/AboutMe';
 import Experience from '../components/Experience';
 import ProjectList from '../components/ProjectList';
+import Footer from '../components/common/Footer';
 
 export default class Container extends Component {
 
@@ -77,11 +78,12 @@ export default class Container extends Component {
       <section className={styles.bodySection}>
         <section className={styles.header}>
           <Name />
+          <LinkList linkList={this.linkList} />
         </section>
-        <LinkList linkList={this.linkList} />
         <AboutMe />
         <Experience />
         <ProjectList projectList={this.projectList} />
+        <Footer />
       </section>
     );
   }
