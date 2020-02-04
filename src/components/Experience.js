@@ -31,7 +31,7 @@ const Experience = () => {
           <dd>PgAdmin</dd>
           <dd>Compass</dd>
           <dd>Postman</dd>
-          <dd>Travis</dd>
+          <dd className={styles.bottomTool}>Travis</dd>
 
           <dt className={styles.other}>Other Tools</dt>
           <dd>WordPress</dd>

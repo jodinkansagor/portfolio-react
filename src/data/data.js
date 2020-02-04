@@ -6,7 +6,7 @@ export const linkList = [
   },
   {
     url: 'https://www.linkedin.com/in/jodikansagor/',
-    linkImg: '../src/assets/linkedin.png',
+    linkImg: '../src/assets/LinkedInLogo.png',
     linkName: '/jodikansagor'
   },
   {
@@ -54,7 +54,7 @@ export const projectList = [
     githubLink: 'https://github.com/jodinkansagor/pokedex'
   },
   {
-    img: '../src/assets/astro_learning.png',
+    img: '../src/assets/cc_astro.png',
     description: 'A simple astrology learning module. Choose a sign and an astrological body and learn more about that aspect. Continuing to add data to the project. Still a work in progress',
     stack: 'Tech: Vanilla JS, HTML, CSS',
     siteLink: 'https://jodinkansagor.github.io/astro-learning/',

@@ -16,16 +16,23 @@ export default class Container extends Component {
   render() {
     return (
       <section className={styles.bodySection}>
-        <section className={styles.header}>
-          <Name />
-          <LinkList linkList={linkList} />
-        </section>
-        <section className={styles.bottomHalf}>
-          <AboutMe />
-          <Experience />
-          <ProjectList projectList={projectList} />
-          <Flickr />
-          <Footer />
+        <section className={styles.all}>
+          <section className={styles.header}>
+            <Name />
+            <LinkList linkList={linkList} />
+            <div className={styles.experienceSideBar}>
+
+              <Experience />
+            </div>
+          </section>
+          <section className={styles.bottomHalf}>
+            <AboutMe />
+            <section className={styles.experienceBody}>
+              <Experience />
+            </section>
+            <ProjectList projectList={projectList} />
+            <Footer />
+          </section>
         </section>
       </section>
     );

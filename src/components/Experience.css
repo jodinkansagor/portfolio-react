@@ -29,6 +29,24 @@
   .other {
     margin-top: 5px;
   }
-}
+  
+  @media (min-width: 800px) {
+    dl {
+      flex-direction: column;
+    }
 
+    .tech, .bottomTool {
+      margin-bottom: 20px;
+    }
+
+    .tech {
+      margin-top: 20px;
+    }
+
+    h2 {
+      display: none;
+    }
+  }
+  
+}
 
