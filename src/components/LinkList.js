@@ -6,7 +6,7 @@ import styles from '../components/LinkList.css';
 const LinkList = ({ linkList }) => {
   const linkElements = linkList.map((link, i) => (
     <li key={i}>
-      <Link link={link.link} linkImg={link.linkImg} linkName={link.linkName} />
+      <Link url={link.url} linkImg={link.linkImg} linkName={link.linkName} />
     </li>
 
   ));

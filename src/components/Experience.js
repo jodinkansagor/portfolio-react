@@ -12,6 +12,7 @@ const Experience = () => {
           <dd>HTML</dd>
           <dd>CSS</dd>
           <dd>React</dd>
+          <dd>React hooks</dd>
           <dd>Node.js</dd>
           <dd>Express</dd>
           <dd>PostgrSQL</dd>
