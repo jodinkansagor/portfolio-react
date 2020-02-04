@@ -1,0 +1,57 @@
+.projectItem {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  img {
+    width: 80%
+  }
+
+  .links {
+    margin-top: 7px;
+    color: #d9b08c;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    
+    p {
+      width: 12px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    a {
+      color: #116466;
+    }
+    
+    a:hover {
+      color: #d9b08c
+    }
+  }
+
+  p {
+    
+    margin: 0px;
+    margin-top: 7px;
+    color: #2c3531;
+    width: 80%
+  }
+
+  .stack {
+    color: #116466
+  }
+
+  @media (min-width: 1200px) {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
