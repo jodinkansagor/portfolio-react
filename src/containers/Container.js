@@ -6,7 +6,6 @@ import AboutMe from '../components/AboutMe';
 import Experience from '../components/Experience';
 import ProjectList from '../components/ProjectList';
 import Footer from '../components/common/Footer';
-import Flickr from '../components/Flickr';
 import { linkList, projectList } from '../data/data';
 
 
