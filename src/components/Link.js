@@ -5,7 +5,7 @@ import styles from '../components/Link.css';
 const Link = ({ url, linkImg, linkName }) => {
   return (
     <section className={styles.linkSection}>
-      <a href={url}><img src={linkImg} />
+      <a href={url} target="_blank"><img src={linkImg} />
         <h2>{linkName}</h2></a>
     </section>
   );

@@ -10,9 +10,9 @@ const ProjectItem = ({ img, description, stack, siteLink, githubLink }) => {
       <p>{description}</p>
       <p className={styles.stack}>{stack}</p>
       <section className={styles.links}>
-        <a href={siteLink}>site{' '}</a>
+        <a href={siteLink} target="_blank">site{' '}</a>
         <p>//</p>
-        <a href={githubLink}>github</a>
+        <a href={githubLink} target="_blank">github</a>
       </section>
 
     </section>
