@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../components/ProjectItem.css';
-import ProjectList from './ProjectList';
 
 const ProjectItem = ({ img, description, stack, siteLink, githubLink }) => {
   return (

@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import styles from '../components/ProjectList.css';
 import ProjectItem from '../components/ProjectItem';
 
-//why is my linter unhappy here?
-
 const ProjectList = ({ projectList }) => {
   const projectElements = projectList.map((projectItem) => (
     <li key={projectItem.name}>
@@ -22,7 +20,7 @@ const ProjectList = ({ projectList }) => {
   );
 };
 
-ProjectList.proptypes = {
+ProjectList.propTypes = {
   projectList: PropTypes.arrayOf(PropTypes.shape({
     img: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,

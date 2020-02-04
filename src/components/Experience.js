@@ -3,7 +3,7 @@ import styles from '../components/Experience.css';
 
 const Experience = () => {
   return (
-    <>
+    <section className={styles.experienceName}>
       <h2>Experience</h2>
       <dl>
         <section className={styles.tech}>
@@ -39,7 +39,7 @@ const Experience = () => {
           <dd>TDD</dd>
         </section>
       </dl>
-    </>
+    </section>
   );
 };
 

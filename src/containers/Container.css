@@ -22,6 +22,12 @@
   }
 }
 
+.bodySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a:hover {
   cursor: pointer
 }
