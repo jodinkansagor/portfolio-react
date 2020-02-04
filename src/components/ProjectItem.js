@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../components/ProjectItem.css';
 
+
 const ProjectItem = ({ img, description, stack, siteLink, githubLink }) => {
   return (
     <section className={styles.projectItem}>

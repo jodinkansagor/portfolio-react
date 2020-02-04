@@ -1,3 +1,8 @@
+import coffee from '../assets/coffee-and-cards.png';
+import markov from '../assets/markov.png';
+
+
+
 export const linkList = [
   {
     url: 'https://github.com/jodinkansagor',
@@ -18,14 +23,14 @@ export const linkList = [
 
 export const projectList = [
   {
-    img: '../src/assets/coffee-and-cards.png',
+    img: coffee,
     description: 'Daily tarot card tracker that allows the user to track trends in their card readings and store information for each card pulled.',
     stack: 'Tech: Node, Express, MongoDB, Mongoose, Vanilla JS, HTML, CSS',
     siteLink: 'https://coffeepluscardspdx.herokuapp.com',
     githubLink: 'https://github.com/jodinkansagor/daily-card-pulls'
   },
   {
-    img: '../src/assets/markov.png',
+    img: markov,
     description: 'Node based back end Twitter bot using Markov Chain technology to create predictive text sentences.',
     stack: 'Tech: Node, Express, MongoDB, Mongoose, HTML, CSS, Vanilla JS, multiple npm packages',
     siteLink: 'https://markovtwain.herokuapp.com',
