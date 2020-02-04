@@ -4,8 +4,8 @@ import styles from '../components/ProjectList.css';
 import ProjectItem from '../components/ProjectItem';
 
 const ProjectList = ({ projectList }) => {
-  const projectElements = projectList.map((projectItem) => (
-    <li key={projectItem.name}>
+  const projectElements = projectList.map((projectItem, i) => (
+    <li key={i}>
       <ProjectItem {...projectItem} />
     </li>
   ));
