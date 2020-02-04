@@ -1,22 +1,29 @@
 import coffee from '../assets/coffee-and-cards.png';
 import markov from '../assets/markov.png';
+import trails from '../assets/treksandtrails.png';
+import unicorn from '../assets/collectable_creatures.png';
+import astro from '../assets/cc_astro.png';
+import pokedex from '../assets/pokedex.png';
+import linkedin from '../assets/LinkedInLogo.png';
+import github from '../assets/github_logo.png';
+import email from '../assets/email.png';
 
 
 
 export const linkList = [
   {
     url: 'https://github.com/jodinkansagor',
-    linkImg: '../src/assets/github-logo.png',
+    linkImg: github,
     linkName: '/jodinkansagor'
   },
   {
     url: 'https://www.linkedin.com/in/jodikansagor/',
-    linkImg: '../src/assets/LinkedInLogo.png',
+    linkImg: linkedin,
     linkName: '/jodikansagor'
   },
   {
     url: 'mailto:jodinkansagor@gmail.com',
-    linkImg: '../src/assets/email.png',
+    linkImg: email,
     linkName: 'jodinkansagor@gmail.com'
   }
 ];
@@ -37,14 +44,14 @@ export const projectList = [
     githubLink: 'https://github.com/textables/MarkovTwain'
   },
   {
-    img: '../src/assets/treksandtrails.png',
+    img: trails,
     description: 'Combined information from 5 different 3rd party APIs to create informative front end hike and camping search site.',
     stack: 'Tech: Vanilla JS, HTML, CSS, SQL, Postgres, Node, Express',
     siteLink: 'https://treksntrails.herokuapp.com',
     githubLink: 'https://github.com/Plant-Parenthood/treks-n-tents'
   },
   {
-    img: '../src/assets/collectable_creatures.png',
+    img: unicorn,
     description: 'My spin on a typical to-do app. Create a list of magical creatures you want to collect and check them off once collected!',
     stack: 'Tech: Node, Express, Vanilla JS, HTML, CSS, SQL, Postgres',
     siteLink: 'https://unicorn-gathering.herokuapp.com/',
@@ -52,14 +59,14 @@ export const projectList = [
   },
 
   {
-    img: '../src/assets/pokedex.png',
+    img: pokedex,
     description: 'Curious about Pokemon? Learn more about them with this Pokedex! Utilized pokemon 3rd party api to gather all the Pokemon.',
     stack: 'Tech: HTML, CSS, Vanilla JS, superagent',
     siteLink: 'https://afternoon-hamlet-35387.herokuapp.com/pokedex.html',
     githubLink: 'https://github.com/jodinkansagor/pokedex'
   },
   {
-    img: '../src/assets/cc_astro.png',
+    img: astro,
     description: 'A simple astrology learning module. Choose a sign and an astrological body and learn more about that aspect. Continuing to add data to the project. Still a work in progress',
     stack: 'Tech: Vanilla JS, HTML, CSS',
     siteLink: 'https://jodinkansagor.github.io/astro-learning/',

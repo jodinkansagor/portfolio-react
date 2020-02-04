@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../components/AboutMe.css';
-import jbj from '../src/assets/headshot.jpg';
+import jbj from '../assets/headshot.jpg';
 
 const AboutMe = () => {
   return (
