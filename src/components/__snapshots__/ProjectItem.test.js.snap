@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectItem component matches a snapshot 1`] = `
+<section
+  className="projectItem"
+>
+  <img
+    src="img"
+  />
+  <p>
+    description
+  </p>
+  <p
+    className="stack"
+  >
+    stack
+  </p>
+  <section
+    className="links"
+  >
+    <a
+      href="sitelink"
+      target="_blank"
+    >
+      site
+       
+    </a>
+    <p>
+      //
+    </p>
+    <a
+      href="githublink"
+      target="_blank"
+    >
+      github
+    </a>
+  </section>
+</section>
+`;

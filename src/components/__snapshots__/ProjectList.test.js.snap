@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectList component matches a snapshot 1`] = `
+<div
+  className="projectList"
+>
+  <h2>
+    Select Projects
+  </h2>
+  <ul>
+    <li
+      key="0"
+    >
+      <ProjectItem
+        0="p"
+        1="r"
+        2="o"
+        3="j"
+        4="e"
+        5="c"
+        6="t"
+      />
+    </li>
+    <li
+      key="1"
+    >
+      <ProjectItem
+        0="p"
+        1="r"
+        2="o"
+        3="j"
+        4="e"
+        5="c"
+        6="t"
+      />
+    </li>
+  </ul>
+</div>
+`;
