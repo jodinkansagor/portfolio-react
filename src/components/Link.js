@@ -12,9 +12,9 @@ const Link = ({ url, linkImg, linkName }) => {
 };
 
 Link.propTypes = {
-  url: PropTypes.string.isRequired,
-  linkImg: PropTypes.string.isRequired,
-  linkName: PropTypes.string.isRequired
+  url: PropTypes.string,
+  linkImg: PropTypes.string,
+  linkName: PropTypes.string
 }
 
 export default Link;
