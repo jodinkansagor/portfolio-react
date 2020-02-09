@@ -28,7 +28,6 @@ const Experience = () => {
           <dd>GitHub</dd>
           <dd>Adobe CS</dd>
           <dd>Adobe xD</dd>
-          <dd>Compass</dd>
           <dd>PgAdmin</dd>
           <dd>Compass</dd>
           <dd>Postman</dd>
