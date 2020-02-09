@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link component matches a snapshot 1`] = `
+<section
+  className="linkSection"
+>
+  <a
+    target="_blank"
+  >
+    <img />
+    <h2 />
+  </a>
+</section>
+`;
