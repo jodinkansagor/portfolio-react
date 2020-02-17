@@ -1,0 +1,16 @@
+.tech {
+  h1 {
+    height: 24px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+  .heading {
+    color: #D1E8E2
+  }
+}

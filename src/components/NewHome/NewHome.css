@@ -1,0 +1,24 @@
+.newHome {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    color: #d9b08c
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .words {
+    width: 400px;
+  }
+}
