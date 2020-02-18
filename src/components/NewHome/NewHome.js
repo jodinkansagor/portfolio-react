@@ -1,12 +1,13 @@
 import React from 'react';
 import jbj from '../../assets/jbj.png';
+import jbjsketch from '../../assets/jbjsketch.png';
 import styles from './NewHome.css';
 import Typical from 'react-typical';
 
 
 const NewHome = () => (
   <section className={styles.newHome}>
-    <img src={jbj} />
+    <img src={jbjsketch} />
     <section className={styles.words}>
       <h1>Jodi &apos;JBJ&apos; Kansagor</h1>
       <h2>I&apos;m 
