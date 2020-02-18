@@ -1,5 +1,5 @@
 import React from 'react';
-import jbjsketch from '../../assets/jbj.png';
+import jbjsketch from '../../assets/jbjsketch.png';
 import styles from './NewHome.css';
 import Typical from 'react-typical';
 
