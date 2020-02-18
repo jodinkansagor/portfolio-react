@@ -3,7 +3,6 @@ import jbjsketch from '../../assets/jbjsketch.png';
 import styles from './NewHome.css';
 import Typical from 'react-typical';
 
-
 const NewHome = () => (
   <section className={styles.newHome}>
     <img src={jbjsketch} />
