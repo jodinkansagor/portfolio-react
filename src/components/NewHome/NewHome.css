@@ -1,20 +1,25 @@
+
+
+
 .newHome {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100vw;
+  width: 300px;
 
   h1 {
     font-size: 30px;
     margin-bottom: 5px;
     margin-left: 5px;
+    margin-top: 10px;
+    
     width: 300px;
   }
 
   h2 {
     color: #d9b08c;
     margin-left: 5px;
+    margin-right: 0px;
     font-size: 20px;
     width: 300px;
   } 
@@ -24,6 +29,7 @@
     border-radius: 100%;
     opacity: 50%;
     margin: auto;
+    margin-top: 15px;
   }
 
 }
