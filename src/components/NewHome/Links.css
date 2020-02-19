@@ -1,24 +1,24 @@
 .links {
-  text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
 
   h1 {
     margin-bottom: 10px;
-    height: 24px;
-    color: #D1E8E2
+    color: #D1E8E2;
+    font-size: 17px;
+    margin-left: 5px;
   }
 }
 
 a {
   color: #ffcb94;
   text-decoration: none;
-  margin: 10px;
+  margin-left: 5px;
+  margin-right: 3px;
   font-family: 'Slabo 27px', serif;
-  font-size: 20px;
-  height: 24px;
+  font-size: 15px;
 
   &:hover {
     color: #D1E8E2

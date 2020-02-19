@@ -2,10 +2,9 @@ html {
   background-color: #116466;
   color: #ffcb94;
   font-family: 'Slabo 27px', serif;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  
+  body {
+    height: 100vh;
+  }
 
   }

@@ -1,26 +1,29 @@
 .newHome {
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-
+  width: 100vw;
 
   h1 {
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 5px;
+    margin-left: 5px;
+    width: 300px;
   }
 
   h2 {
-    color: #d9b08c
-  }
+    color: #d9b08c;
+    margin-left: 5px;
+    font-size: 20px;
+    width: 300px;
+  } 
 
   img {
     width: 200px;
     border-radius: 100%;
-    margin-right: 20px;
+    opacity: 50%;
+    margin: auto;
   }
 
-  .words {
-    width: 400px;
-  }
 }

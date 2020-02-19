@@ -1,16 +1,33 @@
 .tech {
   h1 {
-    height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
     margin-right: 10px;
   }
   
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  margin-left: 5px;
+
+  .project1, .project2, .project3 {
+    display: flex;
+    flex-direction: row;
+    h1 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
+  }
 
   .heading {
     color: #D1E8E2
+  }
+
+  .techNames {
+    display: flex;
+    flex-direction: column;
+
   }
 }
