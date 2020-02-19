@@ -9,6 +9,10 @@
     color: #D1E8E2;
     font-size: 17px;
     margin-left: 5px;
+
+    @media (min-width: 630px) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -23,4 +27,11 @@ a {
   &:hover {
     color: #D1E8E2
   }
+
 }
+    @media (min-width: 630px) {
+ 
+      a {
+        font-size: 20px;
+      }
+    }
