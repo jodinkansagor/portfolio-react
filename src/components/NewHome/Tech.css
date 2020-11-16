@@ -37,12 +37,13 @@
     }
 
 
-    .project1, .project2, .project3 {
+    .project {
 
       h1 {
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 20px;
+        margin-right: 20px
       }
     }
   }

@@ -13,7 +13,7 @@ const NewHome = () => (
           loop={Infinity}
           wrapper="b"
           steps={[
-            ' a software developer.',
+            ' a software engineer.',
             2000,
             ' a roller derby skater.',
             2000,
