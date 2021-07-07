@@ -1,0 +1,50 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  width: 325px;
+}
+
+.heading {
+  color: #f0f7f5;
+  font-size: 30px;
+}
+
+.textAndLink {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #ffcb94;
+}
+
+.header {
+  color: #f0f7f5;
+  font-size: 17px;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.projectName {
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+@media (min-width: 630px) {
+
+  .heading
+  .projectName,
+  .header {
+    font-size: 20px;
+  }
+
+  .project {
+    width: 100%;
+  }
+}

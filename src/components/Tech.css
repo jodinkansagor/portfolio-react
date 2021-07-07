@@ -1,0 +1,48 @@
+.techLine {
+  font-size: 17px;
+  margin-right: 16px;
+  list-style-type: none;
+}
+
+.techP {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.heading {
+  color: #f0f7f5;
+  font-size: 30px;
+}
+
+.techNames {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+@media (min-width: 630px) {
+  .heading {
+    font-size: 20px;
+  }
+
+  .techLine {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .techNames {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
