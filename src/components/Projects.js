@@ -12,7 +12,7 @@ const Projects = () => (
       <div>
         <a
           className={styles.projectLink}
-          href="https:/www.driveway.com"
+          href="https://www.driveway.com"
           rel="noopener noreferrer"
           target="_blank"
         >
