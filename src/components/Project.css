@@ -20,7 +20,6 @@
 }
 
 .projectLink {
-  text-decoration: none;
   color: #ffcb94;
 }
 
@@ -31,20 +30,8 @@
   margin-right: 8px;
 }
 
-.projectName {
-  font-size: 17px;
-  margin-left: 5px;
-}
-
-@media (min-width: 630px) {
-
-  .heading
-  .projectName,
-  .header {
-    font-size: 20px;
-  }
-
-  .project {
-    width: 100%;
+@media (min-width: 960px) {
+  .header, .projectLink {
+    font-size: 22px;
   }
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Links.css";
-import resume from "../assets/Jodi_JBJ_Kansagor_Resume.pdf";
+import resume from "../assets/Jodi_JBJ_Kansagor_Resume_2021.pdf";
 
 const Links = () => (
   <section className={styles.links}>
-    <h1 className={styles.fineMe}>Find me:</h1>
+    <h1 className={styles.findMe}>Find me:</h1>
     <section className={styles.linkList}>
       <a
         className={styles.contactLinks}
@@ -30,9 +30,11 @@ const Links = () => (
       >
         Email Me
       </a>
-
-      <a className={styles.contactLinks} href={resume}>
-        My Resume
+      <a className={styles.contactLinks} rel="noopener noreferrer" target="_blank" href={resume}>
+        See My Resume
+      </a>
+      <a className={styles.contactLinks} dowload href={resume}>
+        Download My Resume
       </a>
     </section>
   </section>

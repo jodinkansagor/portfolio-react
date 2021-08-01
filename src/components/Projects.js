@@ -22,7 +22,7 @@ const Projects = () => (
     </div>
     <div className={styles.textAndLink}>
       <div className={styles.projectTitle}>
-        <h1 className={styles.header}>Another cool project is </h1>
+        <h1 className={styles.header}>Another cool app I made is </h1>
       </div>
       <div>
         <a

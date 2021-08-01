@@ -16,15 +16,22 @@ const techArray = [
   "Typescrip",
   "HTML",
   "CSS",
+  "Sass",
   "Material-UI",
   "Redux",
   "Mobx",
+  "React Hooks",
   "Cypress",
   "GraphQL",
   "Storybook",
   "NodeJS",
   "Express",
   "MongoDB",
+  "Contentful",
+  "Storybook",
+  "Git",
+  "Figma",
+  "Azure DevOps"
 ];
 
 const Tech = () => (

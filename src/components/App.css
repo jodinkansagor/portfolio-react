@@ -2,25 +2,17 @@ html {
   background-color: #116466;
   color: #ffcb94;
   font-family: "Slabo 27px", serif;
+  width: 100%;
+}
+
+.app {
+  padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 .inner {
   max-width: 800px;
 }
 
-body {
-  height: 100vh;
-  width: 100%;
-}
-
-.App {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%
-}

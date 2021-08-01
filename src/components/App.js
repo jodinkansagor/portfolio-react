@@ -7,7 +7,7 @@ import Tech from "./Tech";
 
 export default function App() {
   return (
-    <div className={styles.App}>
+    <div className={styles.app}>
       <div className={styles.inner}>
         <NewHome />
         <Projects />
