@@ -13,7 +13,7 @@ const Line = (props) => {
 const techArray = [
   "React",
   "Javascript",
-  "Typescrip",
+  "Typescript",
   "HTML",
   "CSS",
   "Sass",
