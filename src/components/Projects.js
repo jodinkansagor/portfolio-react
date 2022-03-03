@@ -12,6 +12,22 @@ const Projects = () => (
       <div>
         <a
           className={styles.projectLink}
+          href="https://www.newrelic.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          New Relic.
+        </a>
+      </div>
+    </div>
+
+    <div className={styles.textAndLink}>
+      <div className={styles.projectTitle}>
+        <h1 className={styles.header}>I used to work on</h1>
+      </div>
+      <div>
+        <a
+          className={styles.projectLink}
           href="https://www.driveway.com"
           rel="noopener noreferrer"
           target="_blank"

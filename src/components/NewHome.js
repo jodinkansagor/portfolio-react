@@ -16,9 +16,9 @@ const NewHome = () => (
           steps={[
             " a software engineer.",
             2000,
-            " a roller derby skater.",
+            " a retired roller derby skater.",
             2000,
-            " an alchemist.",
+            " a tiny farmer.",
             2000,
             " a dog mom.",
             2000,

@@ -20,10 +20,12 @@ const techArray = [
   "Material-UI",
   "Redux",
   "Mobx",
+  "Zustand",
   "React Hooks",
   "Cypress",
   "GraphQL",
   "Storybook",
+  "Google Firebase",
   "NodeJS",
   "Express",
   "MongoDB",
@@ -31,7 +33,8 @@ const techArray = [
   "Storybook",
   "Git",
   "Figma",
-  "Azure DevOps"
+  "Azure DevOps",
+  "New Relic",
 ];
 
 const Tech = () => (
