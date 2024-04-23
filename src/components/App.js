@@ -10,9 +10,12 @@ export default function App() {
     <div className={styles.app}>
       <div className={styles.inner}>
         <NewHome />
+        <div className={styles.bottomBox}>
+
         <Projects />
         <Tech />
         <Links />
+        </div>
       </div>
     </div>
   );

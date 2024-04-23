@@ -13,13 +13,11 @@
 
 .findMe {
   margin-bottom: 20px;
-  color: #f0f7f5;
   font-size: 30px;
   margin-left: 5px;
 }
 
 .contactLinks {
-  color: #ffcb94;
   margin-left: 5px;
   margin-right: 3px;
   margin-bottom: 5px;
@@ -28,7 +26,7 @@
 }
 
 .constactLinks:hover {
-  color: #d1e8e2;
+  color: rosybrown
 }
 
 @media (min-width: 960px) {

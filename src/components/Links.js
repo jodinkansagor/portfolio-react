@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Links.css";
-import resume from "../assets/Jodi_JBJ_Kansagor_Resume_2021.pdf";
+import resume from "../assets/Jodi_JBJ_Kansagor_Resume_2024.pdf";
 
 const Links = () => (
   <section className={styles.links}>
