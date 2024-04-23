@@ -8,6 +8,9 @@ module.exports = {
     filename: "bundle.[hash].js",
     publicPath: "/",
   },
+  optimization: {
+    minimize: false
+  },
   devServer: {
     port: 7890,
     historyApiFallback: true,
