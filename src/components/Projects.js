@@ -11,7 +11,7 @@ const Projects = () => (
     <h2>I used to work at <a rel="noopener noreferrer"
       target="_blank" href="https://www.driveway.com">Driveway</a>. I led the project to create all content associated with searching, sorting, filtering, and browsing. You can see examples of that work <a rel="noopener noreferrer"
       target="_blank" href="https://www.driveway.com/shop/body-style/suv">here</a> and <a rel="noopener noreferrer"
-      target="_blank" href="https://www.driveway.com/shop">here</a>. This was a greenfield project when I started, we released our v1 6 months later.</h2>
+      target="_blank" href="https://www.driveway.com/shop">here</a>. This was a greenfield project when I started, we released in 6 months.</h2>
   </div>
 );
 
